@@ -1,2 +1,2 @@
 # Pomoadoro
-CLI Pomodoro Timer &amp; Task list
+CLI Pomodoro Timer &amp; Task list.
