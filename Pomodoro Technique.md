@@ -1,8 +1,3 @@
----
-tags:
-  - commonplace
----
-
 Source: https://en.wikipedia.org/wiki/Pomodoro_Technique
 ### Background
 
