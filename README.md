@@ -1,4 +1,10 @@
 # Pomoadoro
+
+### IMPORTANT
+
+If you're going to use this (for whatever reason) make sure to set `tasklist` and `configfile` path in `main.cpp`.
+You can then compile `g++ main.cpp -o pomoadoro` and then add it to your `$PATH`, environmental variables.
+
 ### Background
 
 [Pomodoro Technique](https://github.com/adoante/Pomoadoro/blob/main/Pomodoro%20Technique.md)
