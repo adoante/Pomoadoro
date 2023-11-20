@@ -53,28 +53,29 @@
 Starts a count down timer. Time is in minutes with format M:ss
 */
 void timer(int time){
+	
 	int counter = 60 * time; //amount of seconds
 
-		int min = time - 1;
-		int sec = 59;
+	int min = time - 1;
+	int sec = 59;
 
-	    Sleep(1000);
-	    while (counter >= 1)
-	    {
-	        if (sec < 10) {
-				std::cout << "\rTime remaining: " << min << ":0" << sec  << std::flush;
-			}
-			else {
-				std::cout << "\rTime remaining: " << min << ":" << sec  << std::flush;
-			}
-	        Sleep(1000);
-			sec--;
-	        counter--;
-			if (sec == 0) {
-				min--;
-				sec = 59;
-			}
-	    }
+    Sleep(1000);
+    while (counter >= 1)
+    {
+        if (sec < 10) {
+			std::cout << "\rTime remaining: " << min << ":0" << sec  << std::flush;
+		}
+		else {
+			std::cout << "\rTime remaining: " << min << ":" << sec  << std::flush;
+		}
+        Sleep(1000);
+		sec--;
+        counter--;
+		if (sec == 0) {
+			min--;
+			sec = 59;
+		}
+    }
 }
 ```
 
