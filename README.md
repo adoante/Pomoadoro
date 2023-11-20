@@ -11,11 +11,12 @@
 - [x] Set Break length (default Short 5min, Long 15min)
 - [x] Set Break interval (default short break after each pomodoro, long break after 4 pomodoros )
 - [x] Start Pomodoro (single, not task specific)
-- [ ] Start Task
+- [X] Start Task
 - [x] Print task list
 - [x] Delete tasks
 - [x] Help page
 - [ ] Add comments
+- [ ] Add notification/alarm
 ### User input
 
 ```
